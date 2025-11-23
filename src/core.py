@@ -7,7 +7,7 @@ from pygraphml.Graph import *
 from pygraphml.Node import *
 from pygraphml.Edge import *
 from random import randint
-from BeautifulSoup import BeautifulSoup
+from BeautifulSoup import BeautifulSoup 
 from datetime import date
 from google import search
 from instagram.client import InstagramAPI
