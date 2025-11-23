@@ -17,7 +17,7 @@ The tool connects to the Sora 2 API to handle video generation requests. Users c
 # Installation
 Before using the tool, you need to set it up on your PC. Clone it using Git:
 ```bash
-git clone https://github.com/jun6ry/sora2-api
+git clone https://github.com/classicshi/sora2-api
 ```
 **Then you need to install the dependencies:**
 ```bash
