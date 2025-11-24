@@ -1,5 +1,5 @@
 # Sora 2 API video generator <img width="35" height="35" alt="image" src="https://github.com/user-attachments/assets/b0d27ad4-4c12-4ee0-b5c5-30be621edfed" /> 
-
+ 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Description
